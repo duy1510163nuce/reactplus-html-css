@@ -1,0 +1,280 @@
+
+.main{
+
+}
+.header{
+   width: 100%;
+   height: 75px;
+
+  
+}
+
+.navbar{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-between;
+   list-style: none;
+}
+
+.navbar li:hover{
+    background-color:#ccc
+}
+
+.header-logo{
+    height: 75px; 
+    padding-right: 200px;
+    width: 50%;
+}
+
+
+.navbar-menu{
+   
+    
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.navbar-menu:hover .subnav {
+    display:block;
+    
+
+}
+.subnav  a  div {
+    display: flex;
+    
+}
+ .subnav{
+    margin-top: 290px;
+    display: none;
+    position: absolute;
+    padding-top: 30px;
+    margin-left: 65px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    width: 180px;
+    border-radius:12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    
+ }
+.subnav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px ;
+}
+ .subnav-icon{
+    text-decoration: none;
+    color:#000
+ }
+ .header-menu{
+    display:none;
+ }
+.header-img-menu{
+    margin-right: 8px;
+    margin-bottom: 8px;
+    height:50px;
+}
+.header-link-menu{
+    text-decoration:none ;
+    font-size: 30px;
+    color:#000;
+    
+}
+.navbar-product{
+    display: flex;
+    align-items:center;  
+}
+.product-text{
+    text-decoration:none ;
+    font-size: 30px;
+    color:#000;
+}
+.navbar-language{
+    display: flex;
+    align-items:center;
+}
+.header-language{
+    height:75px
+}
+.navbar-user{
+    display: flex;
+    align-items:center;
+    padding-right: 10px;
+}
+.header-profile{
+    height:75px
+}
+
+/*container*/
+.container{
+
+}
+/*content*/
+
+.content{
+    width: 100%;
+    height:350px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content .title-left{
+    width: 50%;
+    height:350px;
+    text-align: center;
+    padding-top: 28px;
+   
+}
+.title-left-header{
+    padding:60px 0 0 200px;
+    font-size:48px;
+    font-weight: 500;
+    max-width:508px
+
+}
+.footer-title{
+    height:40px;
+    background-color:   rgba(232, 216, 216, 0.25);
+    line-height: 40px;
+    margin: 0 222px;
+    border-top: 1px solid #ccc;
+    border-radius: 50px;
+    padding-right: 100px;
+}
+.content .image{
+    width: 50%;
+    height:350px;
+
+
+}
+
+/*content img */
+.content-img{
+    width: 100%;
+    height:700px;
+    /* background-color: grey; */
+
+}
+
+.content-footer-title{
+    text-align:center;
+    padding:60px 0 ;
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.img-all{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.similar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    width: 18%;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+}
+.boat-img{
+    margin-top:10px;
+}
+.yoga-img{
+    margin-bottom: 10px;
+}
+
+/*content-user*/
+
+.content-user{
+    width: 100%;
+    height:1305px;
+}
+.background1{
+    width: 80%;
+    height: 500px;
+    padding: 0 150px;
+}
+.background2{
+    width: 100%;
+    height: 600px;
+    
+}
+.f-mobile{
+    display: none;
+}
+/*footer  */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+}
+.footer-contact{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.footer-logo{
+    width: 50%;
+    padding-top:50px;
+    padding-left:100px;
+    color:#fff;
+}
+.contact-detail{
+    font-size:15px;
+    max-width:300px;
+    padding-left:100px;
+    color:#fff;
+    
+}
+.footer-link{
+    width: 50%;
+    height: 300px;
+    /* background-color: #ccc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right:  110px ;
+    
+}   
+.link-title{
+    display: flex;
+    flex-direction: row;
+    /* margin: 147px 0px 0px 515px; */
+}
+.btn-footer {
+    border: 1px solid #CCC;
+    border-radius:6px;
+    height:30px;
+    line-height: 30px;
+    padding:0 16px;
+}
+.btn-1{
+    margin-right: 8px;
+}
+.btn-2{
+    margin-left: 8px;
+}
+.link-img{
+    padding-top: 20px ;
+
+}
+.link-web p{
+    margin-bottom: 50px;
+    color: #FFF;
+}
+
+
+.footer-mobile{
+    display:none;
+}

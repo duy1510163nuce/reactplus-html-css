@@ -1,0 +1,154 @@
+@media  screen and (max-width:392px ){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        max-width: 390px;
+        /* display: block;  */
+        width: 100%;
+        margin-top: 10%;
+    }
+    .header-logo{
+        height: 50px;
+        width: 50%;
+        margin-left: 11%;
+    }
+    .navbar-user{
+        padding-right: 10%;
+    }
+    .header-profile {
+        height: 55px;
+    }   
+    .navbar-menu{
+        display: none;
+    }
+    .product-text{
+        display: none;
+    }
+    .navbar-language {
+        display: none;
+    }
+    .header-menu{
+        display: block;
+        width: 10%;
+        padding-right: 19%;
+        padding-top: 3%;
+    }
+    .fa-solid{
+        color:#ccc;
+        font-size: 35px;
+    }
+
+    
+    /*content*/   
+    .container{
+        /* display: none; */
+        width: 100%;
+    }
+    .f-mobile{
+        /* display: none; */
+    }
+    .content{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .content .title-left{
+       width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+        height: 340px;
+        margin-top: 10%;
+    }
+    .title-left-header{
+        padding: 6% 0 5% 13%;
+        font-size: 25px;
+        font-weight: 500;
+        max-width: 225px;
+    }
+    .title-left-content{
+        font-size: 15px;
+    }
+    .footer-title{
+        width: 60%;
+        height:40px;
+        padding: 0;
+        margin: 0 20%;
+        line-height: 40px;
+        background-color:   rgba(232, 216, 216, 0.25);
+        border-top: 1px solid #ccc;
+        border-radius: 50px; 
+    }
+    .content .image{
+        width: 70%;
+        margin: 2% 15%;
+    }
+    .image-family{ 
+        width: 100%;
+    }
+
+
+    /*content-img*/
+    .content-img{
+        width: 100%;
+        height:500px;
+        /* display:none; */
+
+    }
+
+    .content-footer-title{
+        text-align:center;
+        padding:60px 0 ;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+    .img-all{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+    .similar{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        text-align: center;
+        width: 40%;
+        border: 2px solid #ccc;
+        border-radius: 40px;
+        margin:10px 0;
+        
+    }
+    .boat-img{
+        margin-top:10px;
+    }
+    .yoga-img{
+        margin-bottom: 10px;
+    }
+        /*container*/
+    .content-user{
+        display:none
+    }
+
+    /*footer*/
+    .footer{
+        display:none;
+    }
+    .f-mobile{
+        display: block;
+        width: 100%;
+        margin-top: 40%;
+        /* height:300px; */
+    }
+    .f-image{
+        width: 100%;
+    }
+}
